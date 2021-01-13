@@ -16,8 +16,7 @@
 #include <float>
 #include <ugmp>
 
-public OnFilterScriptInit()
-{
+public OnFilterScriptInit() {
 	print("\n///");
 	print("UGMP Coordinate Getter is loaded\n");
 	print("If this is your production server, disable this filterscript!");
@@ -26,8 +25,7 @@ public OnFilterScriptInit()
 	return 1;
 }
 
-public OnPlayerCommandText(playerid, cmdtext[])
-{
+public OnPlayerCommandText(playerid, cmdtext[]) {
 	// For the sake of not spending absurd amounts of time in a filterscript just do the ol' strtok
 	new idx;
 	new cmd[32];
